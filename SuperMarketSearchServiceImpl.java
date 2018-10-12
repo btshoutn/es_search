@@ -313,8 +313,6 @@ public class SuperMarketSearchServiceImpl implements SuperMarketSearchService {
                 .addSort("_score", SortOrder.DESC).addSort("id", SortOrder.ASC).get();
     }*/
 
-
-
     private SearchResponse assemQueryByBean(SearchRequestBuilder searchRequest, EsClient esClient, SearchBean bean) throws Exception {
 
 
